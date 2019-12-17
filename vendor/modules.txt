@@ -19,6 +19,8 @@ github.com/agl/ed25519/edwards25519
 github.com/apparentlymart/go-cidr/cidr
 # github.com/apparentlymart/go-textseg v1.0.0
 github.com/apparentlymart/go-textseg/textseg
+# github.com/apparentlymart/terraform-plugin-test v0.0.0-20191212003532-7d7375efcc66
+github.com/apparentlymart/terraform-plugin-test
 # github.com/armon/go-radix v1.0.0
 github.com/armon/go-radix
 # github.com/aws/aws-sdk-go v1.26.2
@@ -423,7 +425,10 @@ github.com/hashicorp/hcl/v2/json
 github.com/hashicorp/logutils
 # github.com/hashicorp/terraform-config-inspect v0.0.0-20191115094559-17f92b0546e8
 github.com/hashicorp/terraform-config-inspect/tfconfig
-# github.com/hashicorp/terraform-plugin-sdk v1.4.0
+# github.com/hashicorp/terraform-json v0.3.1
+github.com/hashicorp/terraform-json
+# github.com/hashicorp/terraform-plugin-sdk v1.4.1-0.20191217171448-347ed7d9e8a0
+github.com/hashicorp/terraform-plugin-sdk/acctest
 github.com/hashicorp/terraform-plugin-sdk/helper/acctest
 github.com/hashicorp/terraform-plugin-sdk/helper/customdiff
 github.com/hashicorp/terraform-plugin-sdk/helper/encryption
@@ -603,7 +608,7 @@ github.com/uudashr/gocognit
 # github.com/vmihailenco/msgpack v4.0.1+incompatible
 github.com/vmihailenco/msgpack
 github.com/vmihailenco/msgpack/codes
-# github.com/zclconf/go-cty v1.1.0
+# github.com/zclconf/go-cty v1.2.0
 github.com/zclconf/go-cty/cty
 github.com/zclconf/go-cty/cty/convert
 github.com/zclconf/go-cty/cty/function
@@ -672,7 +677,7 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/width
-# golang.org/x/tools v0.0.0-20191010075000-0337d82405ff
+# golang.org/x/tools v0.0.0-20191122185353-c02aa52d2b72
 golang.org/x/tools/go/analysis
 golang.org/x/tools/go/analysis/internal/analysisflags
 golang.org/x/tools/go/analysis/internal/checker
@@ -732,6 +737,7 @@ golang.org/x/tools/internal/gopathwalk
 golang.org/x/tools/internal/imports
 golang.org/x/tools/internal/module
 golang.org/x/tools/internal/semver
+golang.org/x/tools/internal/span
 # google.golang.org/api v0.9.0
 google.golang.org/api/gensupport
 google.golang.org/api/googleapi
