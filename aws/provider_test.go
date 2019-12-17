@@ -12,6 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/arn"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/service/organizations"
+	"github.com/hashicorp/terraform-plugin-sdk/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
@@ -1202,4 +1203,9 @@ provider "aws" {
 	}
 }
 `, os.Getenv("TF_ACC_ASSUME_ROLE_ARN"), policy)
+}
+
+func TestMain(m *testing.M) {
+	acctest.UseNewFramework("aws", Provider)
+	resource.TestMain(m)
 }
